@@ -2,8 +2,8 @@
 
 ### Nacos 简介
 
- - [ ] nacos是什么
- - [ ] 如何使用nacos（单机部署、集群部署）
+ - [x] 前言
+ - [x] nacos是什么? 如何使用nacos（单机部署、集群部署）
 
 ### Nacos Naming 服务发现模块
 
@@ -60,5 +60,5 @@
  - [ ] nacos-springboot-project为什么无法支持@ConfigurationOnProperties注解、无法支持管理dubbo配置
  - [ ] nacos-spring-project在启动时大概率引发`NPE`异常的原因
  - [ ] 为什么nacos整合zipkin会刷"service not found DEFAULT_GROUP@@localhost"的错误
- - [ ] 为什么我的服务从nacos点击下线了还是可以被访问
+ - [x] 为什么我的服务从nacos点击下线了还是可以被访问
  - [ ] nacos-client为什么会出现高CPU占用率的问题
