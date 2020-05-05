@@ -15,7 +15,7 @@
  - [ ] nacos是如何管理服务实例数据的
      - [ ] 非临时实例数据管理
      - [ ] 临时实例数据管理
- - [ ] nacos中的Distro一致性协议原理分析
+ - [x] nacos中的Distro一致性协议原理分析
  - [ ] nacos-server中权威路由的概念以及作用
  - [ ] nacos-client、nacos-server是如何实现标签路由的
  - [ ] nacos是如何集成Istio的
