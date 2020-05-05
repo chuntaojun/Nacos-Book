@@ -1,4 +1,4 @@
-# Nacos——掘金小册
+# Nacos——原理小册
 
 ### Nacos 简介
 
@@ -31,6 +31,12 @@
  - [ ] nacos-server如何实现配置历史记录的删除
  - [ ] nacos-server去MySQL、Oracle等外部DB存储的自我探索
 
+### Nacos Core 核心模块
+
+ - [x] nacos-core 集群成员节点寻址模式
+ - [ ] nacos-core 内部的事件机制设计
+ - [ ] nacos-core 一致性协议设计
+
 ### Nacos Address 地址模式模块
 
  - [ ] nacos address 模块的工作原理
@@ -45,20 +51,13 @@
  - [ ] @NacosConfigurationProperties注解的工作原理
  - [ ] @NacosInject注解工作的原理
 
-#### nacos-springboot-project
-
- - [ ] 配置预加载的原理
- - [ ] 如何实现数据源的动态切换
-
 #### springcloud-alibaba-nacos
 
  - [ ] nacos for cloud 是如何工作的
 
-### nacos常见问题分析
+### nacos非常见问题分析
 
- - [ ] nacos-client周期性出现`SocketTimeoutException : read timeout`、`Connection Timeout`等网络问题
- - [ ] nacos-springboot-project为什么无法支持@ConfigurationOnProperties注解、无法支持管理dubbo配置
- - [ ] nacos-spring-project在启动时大概率引发`NPE`异常的原因
+ - [x] nacos-springboot-project为什么无法支持@ConfigurationOnProperties注解、无法支持管理dubbo配置
  - [ ] 为什么nacos整合zipkin会刷"service not found DEFAULT_GROUP@@localhost"的错误
  - [x] 为什么我的服务从nacos点击下线了还是可以被访问
  - [ ] nacos-client为什么会出现高CPU占用率的问题
