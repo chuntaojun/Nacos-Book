@@ -7,8 +7,7 @@
 
 ### Nacos Naming 服务发现模块
 
- - [ ] nacos-client是如何注册一个服务的
- - [ ] nacos-server接收一个服务实例注册的流程
+ - [x] nacos是如何注册一个服务的
  - [ ] nacos-client内部是如何更新服务实例数据的
  - [ ] nacos-server的主动健康探测机制
  - [ ] nacos-server如何自动摘除不健康的服务实例数据
