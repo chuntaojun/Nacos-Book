@@ -94,7 +94,7 @@ db.password=nacos
 
 这里目前`nacos`只支持` MySQL`这一种数据库，并且官方打包的版本是默认`MySQL`版本为*5.x*的，如果需要使用`MySQL 8.x`的话，需要做如下操作
 
-- 在`nacos/plguins/mysql`这个目录下挂在`mysql 8.x`的`jdbc`驱动`.jar`文件即可，同时，需要确认下`mysql`是否支持事务状态为`read-only`
+- 在`${nacos.home}/plguins/mysql`这个目录下挂在`mysql 8.x`的`jdbc`驱动`.jar`文件即可，同时，需要确认下`mysql`是否支持事务状态为`read-only`
 
 具体参考的 <strong>[nacos-issue](https://github.com/alibaba/nacos/issues/1280)</strong>
 
